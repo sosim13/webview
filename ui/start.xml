@@ -3,7 +3,7 @@
     <UI>
 		<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<!-- Main Container -->
-        <CONTAINER id="main" layout="0,0,320,460" src="main.xml" />
+        <CONTAINER id="main" layout="0,0,720,1230" src="main.xml" />
 
 		<WINDOW id="mainPage" layout="0,0,720,1230" defaultImg="res/ib_sell.jpg">
 			<IMAGE layout="128,270,133,143" defaultImg="res/logo.png" />
