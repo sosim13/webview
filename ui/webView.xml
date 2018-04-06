@@ -13,29 +13,24 @@
                 <WINDOW layout="0,0,320,460" defaultImg="#b0ffffff" />
             </WINDOW>
 
-            <AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://m.almacielo.com/" _src="main.htm" supportZoom="false" controls="none" defaultImg="#01ffffff">
+            <AGATEWEBVIEW id="webView" layout="0,30,320,390" src="http://ukulscore.com/" _src="main.htm" supportZoom="false" controls="none" defaultImg="#01ffffff">
                 <LINKMAP>
                     <!-- main page url을 모두 써준다.-->
-                    <LINK url="http://mulawear.com/m/" jsPlugin="js/main.js" delay="500"/>
+                    <!-- <LINK url="http://mulawear.com/m/" jsPlugin="js/main.js" delay="500"/>
                     <LINK url="http://mulawear.com/m/main.html" jsPlugin="js/main.js" delay="500"/>
                     <LINK url="http://mulawear.com/m/index.html" jsPlugin="js/main.js" delay="500"/>
-
+ -->
                     <!-- 공통 -->
-                    <LINK url="http://nikemania.com/*" jsPlugin="js/common.js" delay="500"/>
+                    <LINK url="http://ukulscore.com/*" jsPlugin="js/common.js" delay="500"/>
 
                     <!-- 자동로그인 -->
                     <LINK url="http://nikemania.com/m/m.php" jsPlugin="js/fillOrderInfo.js" delay="500"/>
-                    <!-- <LINK url="http://nikemania.com/m/m.php" onFinish="function.fillOrderInfo" delay="1000"/> -->
-
-                    <!-- 블로그 검색 -->
-                    <LINK url="http://m.search.naver.com/*" jsPlugin="js/blogSearchPage.js" delay="500"/>
-                    <LINK url="http://m.blog.naver.com/*" jsPlugin="js/blogPage.js"  delay="500"/>
                 </LINKMAP>
             </AGATEWEBVIEW>
 
-            <WINDOW id="flyingObj1" defaultImg="flareBlue.png" layout="-80,200,20,20" />
+            <!-- <WINDOW id="flyingObj1" defaultImg="flareBlue.png" layout="-80,200,20,20" />
             <WINDOW id="flyingObj2" defaultImg="flareRed.png" layout="-80,300,10,10"/>
-            <WINDOW id="flyingObj3" defaultImg="flareGreen.png" layout="-80,400,15,15"/>
+            <WINDOW id="flyingObj3" defaultImg="flareGreen.png" layout="-80,400,15,15"/> -->
         </UILAYOUT>
     </UI>
 
