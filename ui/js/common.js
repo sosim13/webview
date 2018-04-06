@@ -30,12 +30,11 @@ function css(selector, property, value) {
 hideElement('crumbs');
 hideElement('divpop_50');
 hideElement('divpop_51');
-hideElement('divpop_52');
-hideElement('divpop_53');
+hideElement('supple');
+hideElement('bottom');
+hideElementByClass('right');
 
 css(".container", "width", "690px");
-css("#supple", "width", "690px");
-css("#bottom", "width", "690px");
 
 
 //css("body", "background-color", "rgba(255, 255, 255, 0.01)");
