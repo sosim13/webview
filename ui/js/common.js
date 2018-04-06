@@ -30,6 +30,8 @@ function css(selector, property, value) {
 hideElement('crumbs');
 hideElement('divpop_50');
 hideElement('divpop_51');
+hideElement('divpop_52');
+hideElement('divpop_53');
 hideElement('supple');
 hideElement('bottom');
 hideElementByClass('right');
