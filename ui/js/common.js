@@ -38,7 +38,8 @@ hideElementByClass('right');
 
 css("body", "font-size", "24px");
 css("tr, td, th", "font-size", "24px");
-css(".container", "width", "690px");
+css(".container", "width", "960px");
+css("#cont .left", "width", "960px");
 css(".container", "text-align", "left");
 
 
