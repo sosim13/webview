@@ -36,6 +36,8 @@ hideElement('supple');
 hideElement('bottom');
 hideElementByClass('right');
 
+css("body", "font-size", "24px");
+css("tr, td, th", "font-size", "24px");
 css(".container", "width", "690px");
 
 
