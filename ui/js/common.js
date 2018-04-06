@@ -32,9 +32,8 @@ hideElement('divpop_50');
 hideElement('divpop_51');
 hideElement('divpop_52');
 hideElement('divpop_53');
-hideElement('cont');
 
-css("container", "width", "760px");
+css(".container", "width", "760px");
 
 
 //css("body", "background-color", "rgba(255, 255, 255, 0.01)");
