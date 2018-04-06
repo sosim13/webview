@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MOML>
     <UI>
-        <UILAYOUT portrait="320,460" landscape="320,460" theme="theme1">
-            <!-- Main Container -->
-            <CONTAINER id="main" layout="0,0,320,460" src="main.xml" />
-
-            <!-- Splash Screen -->
-            <WINDOW id="splashScreen" layout="0,0,320,460"  defaultImg="#ffffff" >
-                <WINDOW layout="0,0,320,200" align="linear:center" >
-                    <LABEL id="title" themeId="title" layout="auto,auto" text="나이키매니아"  visible="invisible"/>
-                </WINDOW>
-                <WINDOW layout="0,100,320,150" align="linear:center" >
-                    <LABEL id="title2" themeId="title2" layout="auto,auto" text="전용브라우저"  visible="invisible"/>
-                </WINDOW>
-                <WINDOW layout="0,320,320,100" align="linear:center" >
-                    <LABEL id="loading" themeId="loading" layout="auto,auto" text="loading..."  visible="invisible"/>
-                </WINDOW>
-            </WINDOW>
-
-        </UILAYOUT>
 		<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<WINDOW id="mainPage" layout="0,0,720,1230" defaultImg="res/ib_sell.jpg">
 			<IMAGE layout="128,270,133,143" defaultImg="res/logo.png" />
 			<LABEL layout="277,270,300,143" text="airbnb" fontSize="150" fontFace="res/circular_bold.otf" textAlign="center" fontStyle="bold" textColor="#ffffff" />
 		</WINDOW>
-	</UILAYOUT>
+		</UILAYOUT>
     </UI>
     <FUNCTIONCALL cmd="animation.hide('mainPage', 'fade', 'easyOut3', 1000, '')" delay="5000" />
 
