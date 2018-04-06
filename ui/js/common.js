@@ -39,6 +39,7 @@ hideElementByClass('right');
 css("body", "font-size", "24px");
 css("tr, td, th", "font-size", "24px");
 css(".container", "width", "690px");
+css(".container", "text-align", "left");
 
 
 //css("body", "background-color", "rgba(255, 255, 255, 0.01)");
