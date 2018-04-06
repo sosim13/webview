@@ -11,6 +11,6 @@
 		</WINDOW>
 		</UILAYOUT>
     </UI>
-    <FUNCTIONCALL cmd="animation.hide('mainPage', 'fade', 'easyOut3', 1000, '')" delay="3000" />
+    <FUNCTIONCALL cmd="animation.hide('mainPage', 'fade', 'easyOut3', 1000, '')" delay="5000" />
 
 </MOML>
