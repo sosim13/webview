@@ -38,6 +38,7 @@ hideElementByClass('right');
 
 css("body", "font-size", "24px");
 css("tr, td, th", "font-size", "24px");
+css("#top .search2 li", "display", "none");
 
 
 //css("body", "background-color", "rgba(255, 255, 255, 0.01)");
