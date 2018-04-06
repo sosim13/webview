@@ -32,6 +32,20 @@ hideElement('divpop_50');
 hideElement('divpop_51');
 hideElement('divpop_52');
 hideElement('divpop_53');
+hideElement('cont');
+
+css("container", "width", "760px");
+
+
+//css("body", "background-color", "rgba(255, 255, 255, 0.01)");
+//css("#listWrap.index h2 span", "background-color", "rgba(255, 255, 255, 0.01)");
+//css("body", "font-size", "24px");
+//css("a:link", "font-size", "24px");
+//css("a:visited", "font-size", "24px");
+//css("a:hover", "font-size", "24px");
+//css("tr, td, th", "font-size", "24px");
+//css("tr, td, th", "font-size", "24px");
+//css("table.bbslist td#tdate", "font-size", "1px");
 
 
 
