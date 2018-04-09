@@ -44,6 +44,7 @@ css(".container", "margin", "0px");
 css(".container", "width", "690px");
 hideElementByClass('container');
 
+css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "width", "940px");
 css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "display", "none");
 
 document.getElementsByTagName('table')[3].getElementsByTagName('td')[2].style.display="none";
