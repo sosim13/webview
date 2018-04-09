@@ -41,6 +41,7 @@ css("tr, td, th", "font-size", "24px");
 css("#top .search2 li", "display", "none");
 css(".container", "margin", "0px");
 css(".container", "width", "690px");
+css(".fulldrop", "width", "690px");
 
 var customerId = "1";
 function kkk(){
