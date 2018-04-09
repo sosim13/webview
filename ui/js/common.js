@@ -44,12 +44,8 @@ css(".container", "margin", "0px");
 css(".container", "width", "690px");
 hideElementByClass('container');
 
-//css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[1], "width", "940px");
-//css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "display", "none");
 
-document.getElementsByTagName('table')[11].getElementsByTagName('td')[2].style.display="none";
-
-
+hideElement('top');
 
 /*
  window.addEventListener('load', function(){ 
@@ -84,8 +80,8 @@ function test(){
                   text = document.getElementsByTagName('table')[11].getElementsByTagName('td')[i].getElementsByTagName('div')[0].getElementsByTagName('a')[0].text;
 
                   if(text=="POCKET MAGAZINE 포켓 매거진 "){
-                     console.log("text=="+text);
-                     console.log("td"+document.getElementsByTagName('table')[11].getElementsByTagName('td')[i]);
+//                     console.log("text=="+text);
+//                     console.log("td"+document.getElementsByTagName('table')[11].getElementsByTagName('td')[i]);
                      document.getElementsByTagName('table')[11].getElementsByTagName('td')[i].style.display="none";
                   }
               }
