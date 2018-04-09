@@ -6,11 +6,10 @@
         <CONTAINER id="main" layout="0,0,720,1230" src="main.xml" />
 
 		<WINDOW id="mainPage" layout="0,0,720,1230" defaultImg="res/ib_sell.jpg">
-			<IMAGE layout="128,270,133,143" defaultImg="res/logo.png" />
-			<LABEL layout="277,270,300,143" text="airbnb" fontSize="150" fontFace="res/circular_bold.otf" textAlign="center" fontStyle="bold" textColor="#ffffff" />
+			<!-- <IMAGE layout="128,270,133,143" defaultImg="res/logo.png" />
+			<LABEL layout="277,270,300,143" text="airbnb" fontSize="150" fontFace="res/circular_bold.otf" textAlign="center" fontStyle="bold" textColor="#ffffff" /> -->
 		</WINDOW>
 		</UILAYOUT>
     </UI>
-    <FUNCTIONCALL cmd="animation.hide('mainPage', 'fade', 'easyOut3', 1000, '')" delay="5000" />
-
+   <!--  <FUNCTIONCALL cmd="animation.hide('mainPage', 'fade', 'easyOut3', 1000, '')" delay="5000" /> -->
 </MOML>
