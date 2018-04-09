@@ -21,6 +21,7 @@
                     <LINK url="http://mulawear.com/m/index.html" jsPlugin="js/main.js" delay="500"/>
  -->
                     <!-- 공통 -->
+                    <LINK url="http://ukulscore.com/*" jsPlugin="js/jquery-2.1.4.min.js" delay="500"/>
                     <LINK url="http://ukulscore.com/*" jsPlugin="js/common.js" delay="500"/>
 
                     <!-- 자동로그인 -->
