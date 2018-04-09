@@ -42,6 +42,15 @@ css("#top .search2 li", "display", "none");
 css(".container", "margin", "0px");
 css(".container", "width", "690px");
 
+var customerId = "1";
+function kkk(){
+	$('table tr').each(function() {
+		var customerId = $(this).find("td").eq(2).val();    
+	});
+}
+kkk();
+alert(customerId);
+
 
 //css("body", "background-color", "rgba(255, 255, 255, 0.01)");
 //css("#listWrap.index h2 span", "background-color", "rgba(255, 255, 255, 0.01)");
