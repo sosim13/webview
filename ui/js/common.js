@@ -44,16 +44,16 @@ css(".container", "margin", "0px");
 css(".container", "width", "690px");
 hideElementByClass('container');
 
-css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[1], "width", "940px");
-css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "display", "none");
+//css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[1], "width", "940px");
+//css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "display", "none");
 
-document.getElementsByTagName('table')[3].getElementsByTagName('td')[2].style.display="none";
-
-
+document.getElementsByTagName('table')[11].getElementsByTagName('td')[2].style.display="none";
 
 
+
+/*
  window.addEventListener('load', function(){ 
-         console.log("test==="+document.getElementsByTagName('table')[1].getElementsByTagName('td')[285]);
+         alert("test==="+document.getElementsByTagName('table')[1].getElementsByTagName('td')[285]);
          var tdlenth = document.getElementsByTagName('table')[1].getElementsByTagName('td').length;
          var text = "";
          for(var i=0; i<tdlenth; i++) {
@@ -72,7 +72,7 @@ document.getElementsByTagName('table')[3].getElementsByTagName('td')[2].style.di
           }
          }
       });
-
+*/
 
 
 
