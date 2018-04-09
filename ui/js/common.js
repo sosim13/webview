@@ -43,7 +43,10 @@ css("#top .search2 li", "display", "none");
 css(".container", "margin", "0px");
 css(".container", "width", "690px");
 hideElementByClass('container');
-alert(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2].value);
+
+css(document.getElementsByTagName('table')[3].getElementsByTagName('td')[2], "display", "none");
+
+document.getElementsByTagName('table')[3].getElementsByTagName('td')[2].style.display="none";
 
 
 
