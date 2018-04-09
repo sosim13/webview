@@ -47,6 +47,8 @@ function kkk(){
 	$('table tr').each(function() {
 		var customerId = $(this).find("td").eq(2).val();    
 	});
+	customerId.val("2");
+
 }
 kkk();
 alert(customerId);
