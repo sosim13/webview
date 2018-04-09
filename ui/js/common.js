@@ -35,13 +35,14 @@ hideElement('divpop_53');
 hideElement('supple');
 hideElement('bottom');
 hideElementByClass('right');
+hideElementByClass('fulldrop');
 
 css("body", "font-size", "24px");
 css("tr, td, th", "font-size", "24px");
 css("#top .search2 li", "display", "none");
 css(".container", "margin", "0px");
 css(".container", "width", "690px");
-css(".fulldrop", "width", "690px");
+hideElementByClass('container');
 
 var customerId = "1";
 function kkk(){
